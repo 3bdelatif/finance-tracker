@@ -1,0 +1,13 @@
+{
+    "owner": "abdelatif",
+    "transactions": [
+        {
+            "id": 1,
+            "type": "income",
+            "amount": 120,
+            "category": "rent",
+            "description": "i am a good man",
+            "date": "2026-05-25 21:32:45"
+        }
+    ]
+}
