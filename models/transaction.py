@@ -9,7 +9,7 @@ class Transaction:
 
    def __init__(self, t_id, t_type, amount, category, description):
        self.id = t_id
-       if type!=("income","expense"):
+       if t_type not in("income","expense"):
            exit("Invalid transaction type")
        else:
         self.type = t_type  # 'income' or 'expense'
